@@ -27,14 +27,20 @@ the a is the message.
 
  make it live on github via git push
 
+ git status						- check for untracked files
+
+ git add .						- add all files to be tracked
+ git add "filename.txt"			- add a new file tob e tracked
+
+ git commit - m "a"				- commit changes and add a message of what was changed
+
+ git push						- to push changes to github
 
 
+Branching in with GIT
+---------------------
+git branch						- to view which branch you are currently on
 
- git status
+git checkout					- used to switch between branches
 
- git add .    
- git add "filename.txt"
-
- git commit - m "a"
-
- git push
+git checkout -b branch-name		- option b is used to create a new branch
