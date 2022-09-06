@@ -37,10 +37,20 @@ the a is the message.
  git push						- to push changes to github
 
 
-Branching in with GIT
----------------------
+## Branching in with GIT
+
 git branch						- to view which branch you are currently on
 
 git checkout branch-name					- used to switch between branches
 
 git checkout -b branch-name		- option b is used to create a new branch
+
+## Working in a new branch
+
+I added a branch feature-readme-instruction
+
+git diff branch-name						- this shows changes betweeen branches 
+
+## pull changes from github after branch merge
+
+git pull origin main						- pull from main
