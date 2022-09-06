@@ -41,6 +41,6 @@ Branching in with GIT
 ---------------------
 git branch						- to view which branch you are currently on
 
-git checkout					- used to switch between branches
+git checkout branch-name					- used to switch between branches
 
 git checkout -b branch-name		- option b is used to create a new branch
